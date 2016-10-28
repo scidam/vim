@@ -170,7 +170,7 @@ let g:jedi#popup_select_first = 0
 " запуск интерпретатора на F5
 nnoremap <F5> :ConqueTermSplit ipython<CR>
 " а debug-mode на <F6>
-nnoremap <F6> :exe "ConqueTermSplit ipython " . expand("%")<CR>
+nnoremap <F6> :ConqueTermSplit bash<CR>
 let g:ConqueTerm_StartMessages = 0
 let g:ConqueTerm_CloseOnEnd = 0
 " проверка кода в соответствии с PEP8 через <leader>8
