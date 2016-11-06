@@ -185,6 +185,8 @@ nnoremap <leader>Tp :set ft=python<CR>
 nnoremap <leader>Tj :set ft=javascript<CR>
 nnoremap <leader>Tc :set ft=css<CR>
 nnoremap <leader>Td :set ft=django<CR>
+nnoremap <leader>Tl :set ft=tex<CR>
+
 
 
 "=====================================================
