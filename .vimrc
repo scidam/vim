@@ -160,7 +160,8 @@ let g:pymode_run = 0
 
 
 " Disable choose first function/method at autocomplete
-let g:jedi#popup_select_first = 0
+" let g:jedi#popup_select_first = 0
+let g:jedi#show_call_signatures = "0"
 
 
 "=====================================================
@@ -168,7 +169,7 @@ let g:jedi#popup_select_first = 0
 "=====================================================
 " ConqueTerm
 " запуск интерпретатора на F5
-nnoremap <F5> :ConqueTermSplit ipython<CR>
+nnoremap <F5> :ConqueTermSplit python<CR>
 " а debug-mode на <F6>
 nnoremap <F6> :ConqueTermSplit bash<CR>
 let g:ConqueTerm_StartMessages = 0
