@@ -5,27 +5,7 @@
 
 \pagestyle{empty}
 
-%\topmargin=0mm
-
-%\footskip=6mm
-
-%\headheight=0pt
-
-%\headsep=0pt
-
-%\oddsidemargin -1.5cm
-
-%\evensidemargin -1.5cm
-
-%\textwidth 19.0cm
-
-%\textheight 26cm
-
-%\topmargin -0.5cm
-
-
-\renewcommand{\baselinestretch}{1} %óâåëè÷èòü èíòåðâàë â x.x ðàçà
-
+\renewcommand{\baselinestretch}{1} 
 
 \begin{document}
 
@@ -52,8 +32,12 @@
 		\item Press \texttt{ESC} and the anything will be inserted.
 		\end{enumerate}
 
-
-
+	\item Using registers. Pressing \texttt{yy} stores current line to 
+		default register \texttt{""} or \texttt{"0};
+		One can use custom register name to copy and paste text. To store
+		current line in a specified register type: \texttt{"qyy}, where \texttt{q}
+		is a register name; To paste from the \texttt{q} register type \texttt{"qp}.
+		
 
 \end{itemize}
 
